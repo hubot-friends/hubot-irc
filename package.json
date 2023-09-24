@@ -1,6 +1,6 @@
 {
   "name": "@hubot-friends/hubot-irc",
-  "version": "1.0.0",
+  "version": "1.0.0-development",
   "description": "IRC Adapter for Hubot > version `9`.",
   "main": "index.mjs",
   "scripts": {
@@ -38,8 +38,7 @@
       "next"
     ],
     "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org/"
+      "access": "public"
     }
   }
 }
