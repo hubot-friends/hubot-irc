@@ -1,6 +1,6 @@
 {
   "name": "@hubot-friends/hubot-irc",
-  "version": "1.0.0-development",
+  "version": "1.0.0",
   "description": "IRC Adapter for Hubot > version `9`.",
   "main": "index.mjs",
   "scripts": {
@@ -40,5 +40,6 @@
     "publishConfig": {
       "access": "public"
     }
-  }
+  },
+  "devDependencies": {}
 }
