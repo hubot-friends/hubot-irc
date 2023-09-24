@@ -36,10 +36,10 @@
     "branches": [
       "main",
       "next"
-    ],
-    "publishConfig": {
-      "access": "public"
-    }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {}
 }
