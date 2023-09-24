@@ -1,0 +1,44 @@
+{
+  "name": "@hubot-friends/hubot-irc",
+  "version": "1.0.0",
+  "description": "IRC Adapter for Hubot > version `9`.",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --test",
+    "start": "HUBOT_IRC_ROOMS=#myhubot HUBOT_IRC_SERVER=irc.freenode.net hubot --file ./index.mjs --name irc-hubot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubot-friends/hubot-irc.git"
+  },
+  "keywords": [
+    "hubot",
+    "irc",
+    "adapter"
+  ],
+  "author": "Joey Guerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hubot-friends/hubot-irc/issues"
+  },
+  "homepage": "https://github.com/hubot-friends/hubot-irc#readme",
+  "peerDependencies": {
+    "hubot": "^9.0.0"
+  },
+  "engines": {
+    "node": ">= 18.17.0",
+    "npm": ">= 9.5.1"
+  },
+  "dependencies": {
+    "irc": "^0.5.2"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ],
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+}
