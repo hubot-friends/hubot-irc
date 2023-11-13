@@ -1,6 +1,4 @@
-import Adapter from 'hubot/src/adapter.js'
-import Response from 'hubot/src/response.js'
-import { TextMessage, EnterMessage, LeaveMessage } from 'hubot/src/message.js'
+import { TextMessage, EnterMessage, LeaveMessage, Response, Adapter } from 'hubot'
 
 class IrcResponse extends Response {
     async sendPrivate(...strings) {

@@ -1,7 +1,7 @@
 {
   "name": "@hubot-friends/hubot-irc",
-  "version": "1.0.0",
-  "description": "IRC Adapter for Hubot > version `9`.",
+  "version": "0.0.0-development",
+  "description": "IRC Adapter for Hubot > version `11`.",
   "main": "index.mjs",
   "scripts": {
     "test": "node --test",
@@ -23,14 +23,10 @@
   },
   "homepage": "https://github.com/hubot-friends/hubot-irc#readme",
   "peerDependencies": {
-    "hubot": "^9.0.0"
+    "hubot": ">= 11"
   },
   "engines": {
-    "node": ">= 18.17.0",
-    "npm": ">= 9.5.1"
-  },
-  "dependencies": {
-    "irc": "^0.5.2"
+    "node": ">= 18"
   },
   "release": {
     "branches": [
@@ -41,5 +37,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "irc": "^0.5.2"
+  }
 }
