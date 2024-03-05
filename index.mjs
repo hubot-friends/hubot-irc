@@ -4,7 +4,7 @@ import { IrcAdapter, IrcResponse } from './IrcAdapter.mjs'
 export default {
   use(robot) {
     const config = {
-      nick: robot.name ?? robot.alias ?? process.env.HUBOT_IRC_NICK,
+      nick: process.env.HUBOT_IRC_NICK ?? robot.name ?? robot.alias,
       realName: process.env.HUBOT_IRC_REALNAME ?? robot.name ?? robot.alias,
       port: process.env.HUBOT_IRC_PORT ?? 6667,
       rooms: process.env?.HUBOT_IRC_ROOMS?.split(','),
