@@ -12,3 +12,16 @@ npm start
 ```
 
 You can send a message to `@irc-hubot helo` and it will reply.
+
+# Submitting a PR
+
+We're using `semantic-release` to cut releases from Git commit messages. If you submit a pull request, please make sure to prefix the commit messages with:
+
+- `chore` - no release is cut (e.g. chore: Update build pipeline)
+- `fix` - minor version release cut (e.g. fix: Reorder precedence of setting bot name from environment variable)
+- `feat` - major version release cut (e.g. feat: some fantastic new feature)
+- `BREAKING CHANGE` - if the changes break the public API, in addition to `feat`, add a message for BREAKING CHANGES
+    ```
+    feat: new feature
+    BREAKING CHANGE: Public API was changed from v1 to v2
+    ```
